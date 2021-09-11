@@ -1,13 +1,13 @@
 import React from 'react'
 import TemplateWrapper from '../layouts/index'
-import PageTitle from '../components/page_title'
+import PageTitle from './page_title'
 
-export default function NotFoundPage() {
+export default function UnderConstruction() {
     return (
         <TemplateWrapper>
             <div>
-                <PageTitle title="404" />
-                <p>This page does not exist!</p>
+                <PageTitle title="Under Construction" />
+                <p>Come back soon!</p>
             </div>
         </TemplateWrapper>
     )

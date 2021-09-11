@@ -29,7 +29,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                icon: 'src/images/rings.png',
+                icon: 'src/static/rings.png',
             },
         },
         'gatsby-plugin-mdx',
@@ -38,19 +38,12 @@ module.exports = {
         {
             resolve: 'gatsby-source-filesystem',
             options: {
-                name: 'images',
-                path: './src/images/',
-            },
-            __key: 'images',
-        },
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
                 name: 'pages',
                 path: './src/pages/',
             },
             __key: 'pages',
         },
+        'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-plugin-eslint',
             options: {
