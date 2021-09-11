@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+    site: &gatsby-service
+      build:
+        context: .
+      volumes:
+        - ./:/app
+      ports:
+        - 8000:8000
+      image: jamesandelizedotcom-gatsby
+      environment:
+        - NODE_ENV=development
+        - GATSBY_WEBPACK_PUBLICPATH=/
+        - GATSBY_TELEMETRY_DISABLED=1
+        - CHOKIDAR_USEPOLLING=1
+    shell:
+        <<: *gatsby-service
+        entrypoint: /bin/bash
+    yarn: &yarn
+        <<: *gatsby-service
+        entrypoint: yarn
+    test:
+        <<: *yarn
+        command: "test-and-lint"
