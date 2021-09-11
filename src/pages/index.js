@@ -19,7 +19,7 @@ const paragraphStyles = {
 const IndexPage = () => {
     return (
         <main style={pageStyles}>
-            <title>Home Page</title>
+            <title>James & Elize&apos;s Wedding</title>
             <h1 style={headingStyles}>
                 Hello world!
                 <br />
