@@ -1,3 +1,7 @@
 node_modules/
 .cache/
 public
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*

@@ -2,7 +2,8 @@
     "root": true,
     "extends": [
         "airbnb",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "plugin:cypress/recommended"
     ],
     "settings": {
         "import/core-modules": [
