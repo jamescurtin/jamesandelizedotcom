@@ -1,11 +1,8 @@
 const brideName = 'Elize'
 const groomName = 'James'
 
-const config = {
+const Config = {
     site: {
-        backgroundColor: '#f8f8f8',
-        navColor: '#D95E39',
-        textColor: '#001f3f',
         title: `${brideName} & ${groomName}'s Wedding`,
         description: `${brideName} and ${groomName} wedding website`,
         keywords: `${brideName}, ${groomName}, wedding website`,
@@ -46,4 +43,4 @@ const config = {
     ],
 }
 
-export default config
+export default Config

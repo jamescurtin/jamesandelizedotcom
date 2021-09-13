@@ -1,0 +1,31 @@
+.header {
+    background: #f8f8f8;
+    margin-bottom: 1.45rem;
+}
+
+.layout-container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+}
+
+.navbar-hr {
+        display: block;
+        width: 70%;
+        text-align: center;
+        border-top: 1px solid #D95E39;
+        height: 1px;
+        margin: 0 auto;
+}
+
+.content-wrapper {
+    padding-top: 0;
+    display: block;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 70px;
+    color: #001f3f;
+}

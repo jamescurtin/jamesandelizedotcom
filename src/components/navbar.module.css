@@ -1,0 +1,17 @@
+.navbar {
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+.navbar-link {
+    color: #001f3f;
+    text-decoration: none;
+    font-size: 13px;
+    overflow-wrap: normal;
+    margin-right: 12px;
+}
+
+.active-navbar-link {
+    color: #D95E39;
+}

@@ -1,58 +1,17 @@
 import React from 'react'
 
-import config from '../utils/config'
-import TemplateWrapper from '../layouts/index'
+import { weddingInfo } from './home.module.css'
+import Config from '../utils/config'
+import Layout from './layout'
 
 export default function Home() {
     return (
-        <div
-            style={{
-                margin: '0 auto',
-                maxWidth: 960,
-                padding: '0px 1.0875rem 1.45rem',
-                paddingTop: 0,
-                display: 'block',
-                textAlign: 'center',
-            }}
+        <Layout
+            pageTitle={`${Config.personalInfo.groom} & ${Config.personalInfo.bride}'s Wedding`}
         >
-            <TemplateWrapper>
-                <br />
-                <span
-                    style={{
-                        fontFamily: "'Euphoria Script', cursive",
-                        fontSize: '80px',
-                        fontWeight: 'bold',
-                        color: config.site.textColor,
-                        lineHeight: '1em',
-                    }}
-                >
-                    {`${config.personalInfo.bride} & ${config.personalInfo.groom}`}
-                </span>
-                <br />
-                <br />
-                <br />
-                <p
-                    style={{
-                        fontWeight: 'bold',
-                        fontFamily: "'Dancing Script', cursive",
-                        fontSize: '25px',
-                        color: config.site.textColor,
-                    }}
-                >
-                    {config.wedding.date}
-                </p>
-                <p
-                    style={{
-                        fontWeight: 'bold',
-                        fontSize: '25px',
-                        fontFamily: "'Dancing Script', cursive",
-                        color: config.site.textColor,
-                    }}
-                >
-                    {config.wedding.location}
-                </p>
-            </TemplateWrapper>
+            <p className={weddingInfo}>{Config.wedding.date}</p>
+            <p className={weddingInfo}>{Config.wedding.location}</p>
             <p>Under construction; come back soon!</p>
-        </div>
+        </Layout>
     )
 }

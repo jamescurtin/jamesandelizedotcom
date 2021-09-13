@@ -1,14 +1,11 @@
 import React from 'react'
-import TemplateWrapper from '../layouts/index'
-import PageTitle from './page_title'
+
+import Layout from './layout'
 
 export default function UnderConstruction() {
     return (
-        <TemplateWrapper>
-            <div>
-                <PageTitle title="Under Construction" />
-                <p>Come back soon!</p>
-            </div>
-        </TemplateWrapper>
+        <Layout pageTitle="Under Construction">
+            <p>Come back soon!</p>
+        </Layout>
     )
 }
