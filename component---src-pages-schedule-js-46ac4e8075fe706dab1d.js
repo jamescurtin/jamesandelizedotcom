@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjames_and_elize_wedding=self.webpackChunkjames_and_elize_wedding||[]).push([[336],{8711:function(e,n,t){t.d(n,{Z:function(){return a}});var u=t(7294),r=t(8435);function a(){return u.createElement(r.Z,{pageTitle:"Under Construction"},u.createElement("p",null,"Come back soon!"))}},873:function(e,n,t){t.r(n),t.d(n,{default:function(){return a}});var u=t(7294),r=t(8711);function a(){return u.createElement(r.Z,null)}}}]);
+//# sourceMappingURL=component---src-pages-schedule-js-46ac4e8075fe706dab1d.js.map

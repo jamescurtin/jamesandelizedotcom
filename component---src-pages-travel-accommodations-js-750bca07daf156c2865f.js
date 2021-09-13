@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjames_and_elize_wedding=self.webpackChunkjames_and_elize_wedding||[]).push([[420],{8711:function(e,n,t){t.d(n,{Z:function(){return a}});var u=t(7294),r=t(8435);function a(){return u.createElement(r.Z,{pageTitle:"Under Construction"},u.createElement("p",null,"Come back soon!"))}},1042:function(e,n,t){t.r(n),t.d(n,{default:function(){return a}});var u=t(7294),r=t(8711);function a(){return u.createElement(r.Z,null)}}}]);
+//# sourceMappingURL=component---src-pages-travel-accommodations-js-750bca07daf156c2865f.js.map
