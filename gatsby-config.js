@@ -20,9 +20,9 @@ module.exports = {
         'gatsby-plugin-sass',
         'gatsby-plugin-image',
         {
-            resolve: 'gatsby-plugin-google-analytics',
+            resolve: 'gatsby-plugin-google-gtag',
             options: {
-                trackingId: 'G-QD2NQFZMBM',
+                trackingIds: ['G-QD2NQFZMBM'],
             },
         },
         'gatsby-plugin-sitemap',
