@@ -17,7 +17,6 @@ module.exports = {
         title: "James and Elize's Wedding Website",
     },
     plugins: [
-        'gatsby-plugin-sass',
         'gatsby-plugin-image',
         {
             resolve: 'gatsby-plugin-google-gtag',
@@ -29,7 +28,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                icon: 'src/static/rings.png',
+                icon: 'static/rings.png',
             },
         },
         'gatsby-plugin-mdx',
