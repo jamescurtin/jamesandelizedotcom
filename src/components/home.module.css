@@ -1,5 +1,12 @@
 .wedding-info {
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #001f3f;
+}
+
+.main-body {
+    font-weight: normal;
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     color: #001f3f;

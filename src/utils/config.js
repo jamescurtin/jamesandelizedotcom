@@ -21,8 +21,8 @@ const Config = {
     },
     navBarLinks: [
         {
-            link: '/about',
-            title: 'ABOUT US',
+            link: '/home',
+            title: 'HOME',
         },
         {
             link: '/details',
