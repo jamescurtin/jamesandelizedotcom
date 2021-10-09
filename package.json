@@ -36,6 +36,7 @@
     "gatsby-plugin-sharp": "^3.14.1",
     "gatsby-plugin-sitemap": "^4.10.0",
     "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-source-local-git": "^1.2.2",
     "gatsby-transformer-sharp": "^3.14.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -43,6 +44,7 @@
     "react-helmet": "^6.1.0",
     "typeface-dancing-script": "^1.1.13",
     "typeface-euphoria-script": "^1.1.13",
+    "typeface-inconsolata": "^1.1.13",
     "typeface-raleway": "^1.1.13",
     "webpack": "^5.58.1"
   },

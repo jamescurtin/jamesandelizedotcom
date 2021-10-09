@@ -25,7 +25,8 @@ export default function Faq() {
                 Yes! Feel free to check out the code on{' '}
                 <a
                     href="https://github.com/jamescurtin/jamesandelizedotcom"
-                    target="blank"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     Github
                 </a>
