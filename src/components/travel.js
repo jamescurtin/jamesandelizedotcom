@@ -14,7 +14,7 @@ import Layout from './layout'
 
 function genThingsToDoListItems(thingsToDo) {
     return thingsToDo.map((d) => (
-        <li className={thingsToDoLi} key={d}>
+        <li className={thingsToDoLi} key={d.name}>
             <a href={d.site} target="blank">
                 {d.name}
             </a>
