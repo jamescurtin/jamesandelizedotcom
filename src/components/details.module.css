@@ -1,0 +1,28 @@
+.main-body {
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #001f3f;
+}
+
+.main-header {
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: #001f3f;
+}
+
+.main-body {
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #001f3f;
+}
+
+.main-subtext {
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #001f3f;
+}

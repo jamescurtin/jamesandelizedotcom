@@ -382,14 +382,14 @@ html {
     margin-bottom: 1.45rem;
   }
   p {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 0;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: .7rem;
   }
   figure {
     margin-left: 0;
@@ -518,7 +518,7 @@ html {
     font-weight: bold;
   }
   li {
-    margin-bottom: calc(1.45rem / 2);
+    margin-bottom: calc(1.45rem / 10);
   }
   ol li {
     padding-left: 0;

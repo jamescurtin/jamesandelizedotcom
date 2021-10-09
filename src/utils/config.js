@@ -8,8 +8,12 @@ const Config = {
         keywords: `${brideName}, ${groomName}, wedding website`,
     },
     wedding: {
-        date: '4/9/2022',
-        location: 'The Villa; East Bridgewater, MA',
+        date: 'April 9, 2022',
+        time: '5:00-10:00pm',
+        location: 'The Villa at Ridder Country Club',
+        room: 'Madera Ballroom',
+        address: '390 Oak Street',
+        town: 'East Bridgewater, MA',
     },
     personalInfo: {
         bride: brideName,
@@ -21,8 +25,8 @@ const Config = {
             title: 'ABOUT US',
         },
         {
-            link: '/schedule',
-            title: 'SCHEDULE',
+            link: '/details',
+            title: 'DETAILS',
         },
         {
             link: '/travel_accommodations',
