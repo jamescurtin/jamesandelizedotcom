@@ -44,6 +44,7 @@
     "react-helmet": "^6.1.0",
     "typeface-dancing-script": "^1.1.13",
     "typeface-euphoria-script": "^1.1.13",
+    "typeface-inconsolata": "^1.1.13",
     "typeface-raleway": "^1.1.13",
     "webpack": "^5.58.1"
   },

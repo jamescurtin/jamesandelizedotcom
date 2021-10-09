@@ -30,6 +30,11 @@
     color: #001f3f;
 }
 
+.monospace a {
+    font-family: 'Inconsolata', monospace;
+    color: #ad1d68;
+}
+
 .footer {
     bottom: 0;
     box-sizing: border-box;

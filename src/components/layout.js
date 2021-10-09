@@ -2,6 +2,7 @@ import React from 'react'
 
 import 'typeface-euphoria-script'
 import 'typeface-dancing-script'
+import 'typeface-inconsolata'
 import 'typeface-raleway'
 
 import { graphql, useStaticQuery } from 'gatsby'
@@ -12,11 +13,12 @@ import './layout.style.css'
 
 import {
     contentWrapper,
+    footer,
     header,
     layoutContainer,
+    monospace,
     navbarHr,
     title,
-    footer,
 } from './layout.module.css'
 import Config from '../utils/config'
 import Navbar from './navbar'
@@ -48,9 +50,12 @@ function Footer() {
         <div className={footer}>
             <p>
                 Last updated: {data.gitCommit.date} (
-                <a href={githubUrl} target="_blank" rel="noreferrer">
-                    {data.gitCommit.hash.slice(0, 7)})
-                </a>
+                <span className={monospace}>
+                    <a href={githubUrl} target="_blank" rel="noreferrer">
+                        {data.gitCommit.hash.slice(0, 7)}
+                    </a>
+                </span>
+                )
             </p>
         </div>
     )
