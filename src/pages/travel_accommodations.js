@@ -1,7 +1,7 @@
 import React from 'react'
 
-import UnderConstruction from '../components/under_construction'
+import Travel from '../components/travel'
 
-export default function TravelAccommodations() {
-    return <UnderConstruction />
+export default function IndexPage() {
+    return <Travel />
 }

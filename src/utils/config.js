@@ -29,12 +29,12 @@ const Config = {
             title: 'DETAILS',
         },
         {
-            link: '/travel_accommodations',
-            title: 'TRAVEL & ACCOMMODATIONS',
+            link: '/story',
+            title: 'OUR STORY',
         },
         {
-            link: '/venue',
-            title: 'VENUE',
+            link: '/travel_accommodations',
+            title: 'TRAVEL & ACCOMMODATIONS',
         },
         {
             link: '/registry',
