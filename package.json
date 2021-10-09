@@ -20,7 +20,8 @@
     "format-check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "eslint": "eslint --fix .",
     "eslint-check": "eslint .",
-    "lint": "yarn format && yarn eslint"
+    "lint": "yarn format && yarn eslint",
+    "lint-check": "yarn format-check && yarn eslint-check"
   },
   "dependencies": {
     "@babel/core": "^7.15.8",
@@ -64,8 +65,13 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-webpack-plugin": "^2.4.3",
     "gatsby-plugin-eslint": "^4.0.0",
+    "pre-commit": "^1.2.2",
     "prettier": "^2.4.1",
     "start-server-and-test": "^1.14.0",
     "typescript": "^4.4.3"
-  }
+  },
+  "pre-commit": [
+    "lint-check",
+    "test:e2e:ci"
+  ]
 }
