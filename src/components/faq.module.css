@@ -1,0 +1,13 @@
+.main-question {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #001f3f;
+}
+
+.main-answer {
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #001f3f;
+}

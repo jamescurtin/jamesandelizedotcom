@@ -44,6 +44,10 @@ const Config = {
             link: '/rsvp',
             title: 'RSVP',
         },
+        {
+            link: '/faq',
+            title: 'FAQ',
+        },
     ],
 }
 
