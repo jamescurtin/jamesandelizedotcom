@@ -2,6 +2,7 @@ import React from 'react'
 
 import 'typeface-euphoria-script'
 import 'typeface-dancing-script'
+import 'typeface-raleway'
 
 import { PropTypes } from 'prop-types'
 import { Helmet } from 'react-helmet'

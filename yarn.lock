@@ -11814,6 +11814,11 @@ typeface-euphoria-script@^1.1.13:
   resolved "https://registry.yarnpkg.com/typeface-euphoria-script/-/typeface-euphoria-script-1.1.13.tgz#e4dc7b980991261f88459bd14d8cc7a231219d07"
   integrity sha512-OxWVZG6Wt6MgC65b5/9BlSsD58Kx6LFnE2bFJw699CgnklLkpFyY9XdGcNO3Uz5KUUz8yu2PMSHf6TbMLrAAkQ==
 
+typeface-raleway@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-1.1.13.tgz#5dd44c7029c69991f3e8a66f4434ba62bcf0886a"
+  integrity sha512-iouV4D1dv4Ylm++j2PmPW7HKJH7zTKu5xXsta1hqQ2oG8+9fSpocuF40xCSTckaa1DLYbk1TUiU14wr2nCUBqg==
+
 typescript@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
