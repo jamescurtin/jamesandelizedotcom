@@ -7,6 +7,7 @@ const Config = {
         description: `${brideName} and ${groomName} wedding website`,
         keywords: `${brideName}, ${groomName}, wedding website`,
     },
+    github_url: 'https://github.com/jamescurtin/jamesandelizedotcom',
     wedding: {
         date: 'April 9, 2022',
         time: '5:00-10:00pm',

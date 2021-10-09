@@ -42,6 +42,7 @@ module.exports = {
             },
             __key: 'pages',
         },
+        'gatsby-source-local-git',
         'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-plugin-eslint',
