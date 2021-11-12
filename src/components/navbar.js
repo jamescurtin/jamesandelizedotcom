@@ -6,7 +6,7 @@ import { PropTypes } from 'prop-types'
 import { activeNavbarLink, navbar, navbarLink } from './navbar.module.css'
 import Config from '../utils/config'
 
-const NavbarLink = ({ to, title }) => {
+const NavbarLink = function ({ to, title }) {
     return (
         <Link to={to} activeClassName={activeNavbarLink} className={navbarLink}>
             {title}
