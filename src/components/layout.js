@@ -23,17 +23,19 @@ import {
 import Config from '../utils/config'
 import Navbar from './navbar'
 
-const Header = () => (
-    <div className={header}>
-        <div className={layoutContainer}>
-            <Navbar />
-            <br />
-            <hr className={navbarHr} />
+const Header = function () {
+    return (
+        <div className={header}>
+            <div className={layoutContainer}>
+                <Navbar />
+                <br />
+                <hr className={navbarHr} />
+            </div>
         </div>
-    </div>
-)
+    )
+}
 
-function Footer() {
+const Footer = function () {
     const data = useStaticQuery(graphql`
         query latestGitSHA {
             gitCommit(latest: { eq: true }) {
