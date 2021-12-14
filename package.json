@@ -24,7 +24,7 @@
     "lint-check": "yarn format-check && yarn eslint-check"
   },
   "dependencies": {
-    "@babel/core": "^7.16.0",
+    "@babel/core": "^7.16.5",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^3.14.6",
