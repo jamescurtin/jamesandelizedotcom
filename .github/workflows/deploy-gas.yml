@@ -1,4 +1,4 @@
-name: Deploy Script
+name: Deploy Google App Script
 
 on:
   push:
@@ -68,9 +68,7 @@ jobs:
 
       - name: Deploy Script
         id: clasp-deploy
-        if:
-          ${{env.DEPLOYMENT_ID && (github.event_name == 'release' ||
-          (github.event_name == 'push' && github.ref == 'refs/heads/main'))}}
+        if: ${{ github.event_name	!= 'schedule'}}
         run: clasp deploy -i "$DEPLOYMENT_ID" -d "$GITHUB_REF"
         env:
           DEPLOYMENT_ID: ${{ secrets.DEPLOYMENT_ID }}
