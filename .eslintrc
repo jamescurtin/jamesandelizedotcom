@@ -13,6 +13,7 @@
     "globals": {
         "graphql": true
     },
+    "ignorePatterns": ["gas/*.js"],
     "rules": {
         "import/no-extraneous-dependencies": ["error", {"devDependencies": ["cypress/**/*.js"]}],
         "react/function-component-definition": [1],
