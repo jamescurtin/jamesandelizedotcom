@@ -38,10 +38,6 @@ const Config = {
             title: 'TRAVEL & ACCOMMODATIONS',
         },
         {
-            link: '/registry',
-            title: 'REGISTRY',
-        },
-        {
             link: '/rsvp',
             title: 'RSVP',
         },
