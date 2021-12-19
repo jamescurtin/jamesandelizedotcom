@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkjames_and_elize_wedding=self.webpackChunkjames_and_elize_wedding||[]).push([[883],{9616:function(e,n,t){t.r(n),t.d(n,{default:function(){return u}});var a=t(7294),i=t(8435);function u(){return a.createElement(i.Z,{pageTitle:"404"},a.createElement("p",null,"This page does not exist!"))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-5d3c6e93dd1ae2b31cb2.js.map
