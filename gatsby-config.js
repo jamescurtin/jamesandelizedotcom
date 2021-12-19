@@ -15,6 +15,8 @@ module.exports = {
     siteMetadata: {
         siteUrl: 'https://www.jamesandelize.com',
         title: "James and Elize's Wedding Website",
+        description: "James and Elize's Wedding Website",
+        author: 'James & Elize',
     },
     plugins: [
         'gatsby-plugin-image',
@@ -25,6 +27,19 @@ module.exports = {
             },
         },
         'gatsby-plugin-sitemap',
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Elize & James Wedding Website`,
+                short_name: `Elize&James Wedding`,
+                start_url: `/`,
+                background_color: `#f7f0eb`,
+                theme_color: `#a2466c`,
+                display: `standalone`,
+                icon: 'static/rings.png',
+            },
+        },
+        `gatsby-plugin-offline`,
         {
             resolve: 'gatsby-plugin-manifest',
             options: {

@@ -7,7 +7,8 @@ import 'typeface-raleway'
 
 import { graphql, useStaticQuery } from 'gatsby'
 import { PropTypes } from 'prop-types'
-import { Helmet } from 'react-helmet'
+
+import SEO from './seo'
 
 import './bootstrap-button.css'
 import './layout.style.css'
@@ -67,16 +68,7 @@ const Footer = function () {
 export default function Layout({ pageTitle, children }) {
     return (
         <div>
-            <Helmet
-                title={pageTitle}
-                meta={[
-                    {
-                        name: 'description',
-                        content: Config.site.description,
-                    },
-                    { name: 'keywords', content: Config.site.keywords },
-                ]}
-            />
+            <SEO title={pageTitle} />
             <Header />
             <div className={contentWrapper}>
                 <h1 className={title}>{pageTitle}</h1>
