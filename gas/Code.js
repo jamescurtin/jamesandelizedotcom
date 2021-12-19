@@ -5,7 +5,7 @@ function doGet() {
 function validSecretKey(inputKey) {
     const documentProperties = PropertiesService.getScriptProperties()
     const secretKey = documentProperties.getProperty('secretKey')
-    return secretKey === inputKey
+    return secretKey.toLowerCase() === inputKey.toLowerCase()
 }
 
 function writeToSpreadsheet(data) {
