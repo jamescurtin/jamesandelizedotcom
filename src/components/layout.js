@@ -10,6 +10,7 @@ import { PropTypes } from 'prop-types'
 import { Helmet } from 'react-helmet'
 
 import './layout.style.css'
+import './bootstrap-button.css'
 
 import {
     contentWrapper,

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import UnderConstruction from '../components/under_construction'
+import Rsvp from '../components/rsvp'
 
-export default function rsvp() {
-    return <UnderConstruction />
+export default function IndexPage() {
+    return <Rsvp />
 }

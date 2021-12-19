@@ -15,6 +15,7 @@
     },
     "rules": {
         "react/function-component-definition": [1],
+        "jsx-a11y/label-has-associated-control": [1],
         "react/jsx-filename-extension": [
             1,
             {
