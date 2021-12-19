@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { mainQuestion, mainAnswer } from './faq.module.css'
 import Layout from './layout'
+
+import { mainAnswer, mainQuestion } from './faq.module.css'
 
 export default function Faq() {
     return (

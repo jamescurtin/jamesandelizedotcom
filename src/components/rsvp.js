@@ -5,14 +5,13 @@ import Button from 'react-bootstrap/Button'
 
 import Layout from './layout'
 import {
+    actions,
     attendeeCounts,
-    formContainer,
+    content,
     entreeExplainer,
     foodChoices,
-    wrapper,
+    formContainer,
     modal,
-    content,
-    actions,
 } from './rsvp.module.css'
 
 import './rsvp.style.css'
@@ -290,7 +289,7 @@ const MyForm = function () {
     }
 
     return (
-        <div className={`${formContainer} ${wrapper}`}>
+        <div className={{ formContainer }}>
             <ResponseModal
                 modalInfo={modalInfo}
                 setModalIsOpenToFalse={setModalIsOpenToFalse}

@@ -3,8 +3,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { PropTypes } from 'prop-types'
 
-import { activeNavbarLink, navbar, navbarLink } from './navbar.module.css'
 import Config from '../utils/config'
+
+import { activeNavbarLink, navbar, navbarLink } from './navbar.module.css'
 
 const NavbarLink = function ({ to, title }) {
     return (

@@ -16,8 +16,9 @@
     "ignorePatterns": ["gas/*.js"],
     "rules": {
         "import/no-extraneous-dependencies": ["error", {"devDependencies": ["cypress/**/*.js"]}],
-        "react/function-component-definition": [1],
-        "jsx-a11y/label-has-associated-control": [1],
+        "func-names": [0],
+        "react/function-component-definition": [0],
+        "jsx-a11y/label-has-associated-control": [0],
         "react/jsx-filename-extension": [
             1,
             {

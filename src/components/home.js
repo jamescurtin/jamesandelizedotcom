@@ -2,9 +2,10 @@ import React from 'react'
 
 import { StaticImage } from 'gatsby-plugin-image'
 
-import { mainBody, saveTheDatePhoto, weddingInfo } from './home.module.css'
 import Config from '../utils/config'
 import Layout from './layout'
+
+import { mainBody, saveTheDatePhoto, weddingInfo } from './home.module.css'
 
 export default function Home() {
     return (

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Layout from './layout'
+
 import {
     mainBody,
     mainHeader,
@@ -7,10 +9,9 @@ import {
     mainSubtext,
     thingsToDoLeft,
     thingsToDoLi,
-    thingsToDoUl,
     thingsToDoRight,
+    thingsToDoUl,
 } from './travel.module.css'
-import Layout from './layout'
 
 function genThingsToDoListItems(thingsToDo) {
     return thingsToDo.map((d) => (

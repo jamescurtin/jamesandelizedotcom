@@ -1,8 +1,9 @@
 import React from 'react'
 
-import { mainBody, mainHeader, mainSubtext } from './details.module.css'
 import Config from '../utils/config'
 import Layout from './layout'
+
+import { mainBody, mainHeader, mainSubtext } from './details.module.css'
 
 export default function Details() {
     return (
