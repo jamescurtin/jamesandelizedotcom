@@ -42,6 +42,13 @@ module.exports = {
             },
             __key: 'pages',
         },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `./src/images`,
+            },
+        },
         'gatsby-source-local-git',
         'gatsby-plugin-react-helmet',
         {
