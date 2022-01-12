@@ -41,7 +41,7 @@
     "gatsby-plugin-sitemap": "^5.4.0",
     "gatsby-source-filesystem": "^4.5.1",
     "gatsby-source-local-git": "^1.2.2",
-    "gatsby-transformer-sharp": "^4.4.0",
+    "gatsby-transformer-sharp": "^4.5.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",
