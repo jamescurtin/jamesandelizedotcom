@@ -5838,7 +5838,7 @@ gatsby-cli@^4.5.2:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.5.1, gatsby-core-utils@^3.5.2:
+gatsby-core-utils@^3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.5.2.tgz#f95e1d9034811029a1db85479a1a2bfd456818db"
   integrity sha512-sY7BD6VlbWwrV892x9/yJPtXYaGC/GLyhabd9j2xP6zsIOW0XBHXZ4jJ+xEPaRn3CJxYgBd8KdCyoc4h1ZEFzg==
@@ -6153,10 +6153,10 @@ gatsby-worker@^1.5.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.5.3.tgz#69a8e80e6f3eb7bb51a0e193d1725fab081cf5e6"
-  integrity sha512-YajcPykB+LMeUSEkxB/EouzURjOaVDA2cHCyzhgL0U1vpz4fIHWWxNzPhJ+XxWdzyJCJhZMms2eY2O6vlJMApA==
+gatsby@^4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.5.4.tgz#53404b798da0c86057675d03011f072faf85b27c"
+  integrity sha512-uXyYl9nq52xdvP/9lwWFp7eGtjFFgdAjG2xNBvpgNgd1AtH/4kU76khm1mmpXea98mnJrcwKmsSZkIbQO9YWCg==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
