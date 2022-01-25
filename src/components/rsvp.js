@@ -99,6 +99,10 @@ const MandatoryQuestions = function ({ formData, handleInputChange }) {
             </label>
             <label>
                 <span>Will you be in attendance?</span>
+                <p>
+                    Please mark “Accept” only if you will be fully vaccinated by
+                    April 9.
+                </p>
                 <select
                     name="attendance"
                     value={formData.attendance}
@@ -121,7 +125,7 @@ const AttendeeQuestions = function ({ formData, handleInputChange }) {
                     type="text"
                     name="email"
                     autoComplete="email"
-                    placeholder="Best way to reach you if we need to send any updates"
+                    placeholder="Best way to reach you if we need to send updates"
                     value={formData.email}
                     onChange={handleInputChange}
                 />
@@ -157,8 +161,22 @@ const AttendeeQuestions = function ({ formData, handleInputChange }) {
             </div>
             <h3>Entrée Choice</h3>
             <div className={entreeExplainer}>
+                <ul>
+                    <li>
+                        <b>Chicken</b>: Tuscan Crusted Chicken
+                    </li>
+                    <li>
+                        <b>Beef</b>: Slow Roasted Prime Rib
+                    </li>
+                    <li>
+                        <b>Vegetarian</b>: Butternut Squash Ravioli
+                    </li>
+                    <li>
+                        <b>Children</b>: Chicken Fingers and Fries
+                    </li>
+                </ul>
                 Please indicate the entrée preference of each attendee by adding
-                their initials under the corresponding meal
+                their initials under the corresponding meal:
             </div>
             <div className={foodChoices}>
                 <label>
