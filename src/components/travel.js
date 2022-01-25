@@ -112,18 +112,19 @@ export default function Travel() {
                     </a>
                 </p>
                 <p className={mainSubtext}>
-                        Please use{' '}
-                        <a
-                            href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.marriott.com%2Fevents%2Fstart.mi%3Fid%3D1631732683461%26key%3DGRP&data=04%7C01%7Ckfarrell%40claremontcorp.com%7C6263a6f69aa64396dc7708d9787bb7a1%7C672ff2a675b44d12b7598f35af91f492%7C1%7C0%7C637673295039458860%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=%2FPw%2BO3HgrIa70AZOAr42LJxTmJ0gQngPNrqxNhwDono%3D&reserved=0"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            this link
-                        </a>{' '}
-                        to receive a rate of
-                    $169/night for the Huang-Curtin room block by{' '}
-                    <b>March 4, 2022</b>. Reservations can also be made by
-                    calling the hotel and mentioning the Huang/Curtin block. Note that nightly rates may be cheaper by booking without our room block code so feel free to shop around.
+                    Please use{' '}
+                    <a
+                        href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.marriott.com%2Fevents%2Fstart.mi%3Fid%3D1631732683461%26key%3DGRP&data=04%7C01%7Ckfarrell%40claremontcorp.com%7C6263a6f69aa64396dc7708d9787bb7a1%7C672ff2a675b44d12b7598f35af91f492%7C1%7C0%7C637673295039458860%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=%2FPw%2BO3HgrIa70AZOAr42LJxTmJ0gQngPNrqxNhwDono%3D&reserved=0"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        this link
+                    </a>{' '}
+                    to receive a rate of $169/night for the Huang-Curtin room
+                    block by <b>March 4, 2022</b>. Reservations can also be made
+                    by calling the hotel and mentioning the Huang/Curtin block.
+                    Note that nightly rates may be cheaper by booking without
+                    our room block code so feel free to shop around.
                 </p>
             </div>
             <br />
