@@ -34,6 +34,10 @@ const Config = {
             title: 'OUR STORY',
         },
         {
+            link: '/gallery',
+            title: 'PHOTO GALLERY',
+        },
+        {
             link: '/travel_accommodations',
             title: 'TRAVEL & ACCOMMODATIONS',
         },

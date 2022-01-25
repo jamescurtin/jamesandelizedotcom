@@ -24,9 +24,7 @@ export default function Home() {
             />
             <br />
             <br />
-            <p className={mainBody}>
-                Still under construction - check back for more updates soon!
-            </p>
+            <p className={mainBody} />
         </Layout>
     )
 }
