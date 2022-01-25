@@ -1,7 +1,7 @@
 import React from 'react'
 
-import UnderConstruction from '../components/under_construction'
+import OurStory from '../components/story'
 
-export default function Venue() {
-    return <UnderConstruction />
+export default function Story() {
+    return <OurStory />
 }
