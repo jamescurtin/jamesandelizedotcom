@@ -26,7 +26,7 @@
   "dependencies": {
     "@babel/core": "^7.17.0",
     "@browniebroke/gatsby-image-gallery": "^7.0.3",
-    "@emotion/react": "^11.7.1",
+    "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.6.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
