@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkjames_and_elize_wedding=self.webpackChunkjames_and_elize_wedding||[]).push([[306],{1930:function(e,n,t){var u=t(5318);n.__esModule=!0,n.default=void 0;var a=u(t(5354)),d=u(t(7294)),l=function(e){function n(){return e.apply(this,arguments)||this}return(0,a.default)(n,e),n.prototype.render=function(){return d.default.createElement(d.default.Fragment,null)},n}(d.default.Component),r=l;n.default=r}}]);
-//# sourceMappingURL=component---cache-caches-gatsby-plugin-offline-app-shell-js-6e6c059eb0ceddc99579.js.map
