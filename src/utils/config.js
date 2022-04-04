@@ -8,6 +8,11 @@ const Config = {
         keywords: `${brideName}, ${groomName}, wedding website`,
     },
     github_url: 'https://github.com/jamescurtin/jamesandelizedotcom',
+    welcomeParty: {
+        date: 'April 8, 2022',
+        time: '6:00PM - ...',
+        location: 'Residence Inn Bridgewater',
+    },
     wedding: {
         date: 'April 9, 2022',
         time: '5:00-10:00pm',
