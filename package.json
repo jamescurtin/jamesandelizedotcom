@@ -24,7 +24,7 @@
     "lint-check": "yarn format-check && yarn eslint-check"
   },
   "dependencies": {
-    "@babel/core": "^7.17.8",
+    "@babel/core": "^7.17.9",
     "@browniebroke/gatsby-image-gallery": "^7.0.5",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
